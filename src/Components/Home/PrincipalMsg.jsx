@@ -42,7 +42,7 @@ const PrincipalMsg = () => {
 
         <div className="flex justify-around mt-[2rem] w-full">
           <div className="w-[15rem]">
-            <PiStudentDuotone className="h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl" />
+            <PiStudentDuotone className="h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
             <br />
             <p className="text-[gray]">
               Suguna Polytechnic College ensures that the students prove
