@@ -10,7 +10,7 @@ import FooterPage from "./Footer";
 const Navbar = () => {
   return (
     <div>
-      <div className="h-[7rem] w-[100vw] bg-[#fff] ">
+      <div className="h-[7rem] w-[100vw] bg-[#fff] overflow-x-hidden">
         <div className="flex items-center justify-between mx-10">
           <div className="w-[20rem] flex items-center justify-start">
             <img src={logo} alt="" className="h-[5.5rem] mt-5" />
@@ -52,8 +52,8 @@ const Navbar = () => {
         </div>
         <Slider />
         <PrincipalMsg />
-        <VisionMission/>
-        <Departments/>
+        <VisionMission />
+        <Departments />
 
         <FooterPage />
       </div>

@@ -11,7 +11,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const FooterPage = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="w-full mt-[10rem] bg-black flex flex-col justify-start">
         <div className="w-full flex flex-row justify-start">
           <div className="w-[28%] flex flex-col gap-8 px-[5rem] pt-[5rem] pb-[0rem] items-center">

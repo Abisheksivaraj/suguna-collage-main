@@ -5,7 +5,7 @@ import { LuMedal } from "react-icons/lu";
 import { TEAnimation } from "tw-elements-react";
 const PrincipalMsg = () => {
   return (
-    <div className="flex items-start">
+    <div className="flex items-start overflow-x-hidden">
       <div>
         <TEAnimation
         // animation="[slide-right_1s_ease-in-out]"
