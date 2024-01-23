@@ -6,6 +6,7 @@ import PrincipalMsg from "./PrincipalMsg";
 import VisionMission from "./VisionMission";
 import Departments from "./Departments";
 import Facilities from "./Facilities";
+import Recruiters from "./Recruiters";
 import FooterPage from "./Footer";
 
 const Navbar = () => {
@@ -56,6 +57,7 @@ const Navbar = () => {
         <VisionMission />
         <Departments />
         <Facilities/>
+        <Recruiters/>
 
         <FooterPage />
       </div>

@@ -3,6 +3,13 @@ import "react-multi-carousel/lib/styles.css";
 import img1 from "../../../src/assets/carousal-images/1.jpg";
 import img2 from "../../../src/assets/carousal-images/2.jpg";
 import img3 from "../../../src/assets/carousal-images/3.jpg";
+import img4 from "../../../src/assets/carousal-images/4.jpg";
+import img5 from "../../../src/assets/carousal-images/5.jpg";
+import img6 from "../../../src/assets/carousal-images/6.jpg";
+import img7 from "../../../src/assets/carousal-images/7.jpg";
+import img8 from "../../../src/assets/carousal-images/8.jpg";
+import img9 from "../../../src/assets/carousal-images/9.jpg";
+
 
 
 const Slider = () => {
@@ -36,15 +43,39 @@ const Slider = () => {
         autoPlay={true}
       >
         <div className="relative">
-          <img src={img1} alt="" className="w-screen h-[500px]" />
+          <img src={img1} alt="" className="w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img2} alt="" className="w-screen h-[500px]" />
+          <img src={img2} alt="" className="w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img3} alt="" className="w-screen h-[500px]" />
+          <img src={img3} alt="" className="w-screen h-[600px]" />
+        </div>
+
+        <div className="relative">
+          <img src={img4} alt="" className="w-screen h-[600px]" />
+        </div>
+
+        <div className="relative ">
+          <img src={img5} alt="" className="w-screen h-[600px]" />
+        </div>
+
+        <div className="relative ">
+          <img src={img6} alt="" className="w-screen h-[600px]" />
+        </div>
+
+        <div className="relative">
+          <img src={img7} alt="" className="w-screen h-[600px]" />
+        </div>
+
+        <div className="relative ">
+          <img src={img8} alt="" className="w-screen h-[600px]" />
+        </div>
+
+        <div className="relative ">
+          <img src={img9} alt="" className="w-screen h-[600px]" />
         </div>
       </Carousel>
     </div>
