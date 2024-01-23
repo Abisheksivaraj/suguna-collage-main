@@ -1,18 +1,11 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 import logo from "../../assets/CollageLogo.png";
-import Slider from "../../Components/Home/Slider";
-import PrincipalMsg from "./PrincipalMsg";
-import VisionMission from "./VisionMission";
-import Departments from "./Departments";
-import Facilities from "./Facilities";
-import Recruiters from "./Recruiters";
-import FooterPage from "./Footer";
 
 const Navbar = () => {
   return (
     <div>
-      <div className="h-[7rem] w-[100vw] bg-[#fff]">
+      <div className="h-[9rem] w-[100vw] bg-[#fff]">
         <div className="flex items-center justify-between mx-10">
           <div className="w-[20rem] flex items-center justify-start">
             <img src={logo} alt="" className="h-[5.5rem] mt-5" />
@@ -34,32 +27,36 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex  items-center justify-around mt-5 bg-[#f8e4d2] h-[2rem]">
-          <ul className="flex gap-10 font-normal text-[18px]">
-            <li className="hover:text-[#f98d2f]">Home</li>
-            <li className="hover:text-[#f98d2f]">About</li>
-            <li className="hover:text-[#f98d2f]">Department</li>
-            <li className="flex items-center hover:text-[#f98d2f]">
-              Facilities
+        <div className="flex  items-center justify-around mt-5 bg-[#f98d2f] h-[4rem]">
+          <ul className="flex gap-10 font-semibold text-[18px]">
+            <li className=" text-[white] hover:text-[black]">
+              <a href="">Home</a>
             </li>
-            <li className="hover:text-[#f98d2f]">Admissions</li>
-            <li className="hover:text-[#f98d2f]">Placements</li>
-            <li className="hover:text-[#f98d2f]">Gallery</li>
+            <li className=" text-[white] hover:text-[black]">
+              <a href="">About</a>
+            </li>
+            <li className=" text-[white] hover:text-[black]">
+              <a href="">Department</a>
+            </li>
+            <li className="flex items-center text-[white]  hover:text-[black]">
+              <a href="">Facilities</a>
+            </li>
+            <li className=" text-[white] hover:text-[black]">
+              <a href="">Admissions</a>
+            </li>
+            <li className=" text-[white] hover:text-[black]">
+              <a href="">Placements</a>
+            </li>
+            <li className=" text-[white] hover:text-[black]">
+              <a href="">Gallery</a>
+            </li>
             {/* <li className="hover:text-[#f98d2f]">COURSES</li> */}
-            <li className="flex items-center hover:text-[#f98d2f]">
+            <li className="flex items-center text-[white]  hover:text-[black]">
               {/* PAGES <FaAngleDown className="mt-1" /> */}
               Contact
             </li>
           </ul>
         </div>
-        <Slider />
-        <PrincipalMsg />
-        <VisionMission />
-        <Departments />
-        <Facilities/>
-        <Recruiters/>
-
-        <FooterPage />
       </div>
     </div>
   );

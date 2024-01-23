@@ -24,7 +24,7 @@ const VisionMission = () => {
       <div className="flex flex-col w-full ml-[8rem] mt-[8rem]">
         <div>
           <p className="text-[#f98d2f] text-[1.5rem] font-bold">Our Vision</p>
-          <p className="w-[25rem] text-[gray]">
+          <p className="w-[40rem] text-[gray]">
             In Suguna Polytechnic College we impart futuristic technical
             education and inculcate high moral standards and discipline through
             our dedicated faculty, thus develop technologically superior and
@@ -35,7 +35,7 @@ const VisionMission = () => {
         <br />
         <div>
           <p className="text-[#f98d2f] text-[1.5rem] font-bold"> Our Mission</p>
-          <p className="w-[25rem] text-[gray]">
+          <p className="w-[40rem] text-[gray]">
             Our Mission is to educate and impart technical knowledge to students
             from all sections of society, with special focus on those from rural
             areas, so that they become enlightened individuals, thereby

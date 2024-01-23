@@ -32,7 +32,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="">
+    <div className="mt-[3rem]">
       <Carousel
         swipeable={false}
         draggable={false}
@@ -43,11 +43,11 @@ const Slider = () => {
         autoPlay={true}
       >
         <div className="relative">
-          <img src={img1} alt="" className="w-screen h-[600px]" />
+          <img src={img2} alt="" className="w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img2} alt="" className="w-screen h-[600px]" />
+          <img src={img1} alt="" className="w-screen h-[600px]" />
         </div>
 
         <div className="relative ">

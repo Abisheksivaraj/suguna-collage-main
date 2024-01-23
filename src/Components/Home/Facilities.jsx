@@ -11,8 +11,8 @@ const Facilities = () => {
   return (
     <div>
       <div className="flex items-center justify-center mt-[5rem]">
-        <p className="font-semibold text-[1.5rem] text-[#f98d2f] underline">
-          LEARN BEYOND THE CURRICULUM
+        <p className="font-semibold text-[2rem] text-[#f98d2f] underline">
+          Why Suguna?
         </p>
       </div>
 
