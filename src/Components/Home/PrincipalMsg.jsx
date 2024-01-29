@@ -5,25 +5,23 @@ import { LuMedal } from "react-icons/lu";
 import { TEAnimation } from "tw-elements-react";
 const PrincipalMsg = () => {
   return (
-    <div className="w-[100%] flex justify-start items-start flex-wrap overflow-x-hidden">
+    <div className=" w-[100%] flex justify-start items-start flex-wrap overflow-x-hidden">
       <div className="w-[100%] flex px-12">
-        <div className="w-[30%] pt-[3.3rem] pl-[0rem]">
-          <TEAnimation>
-            <img
-              className="h-[15rem] w-[15rem] flex-1 rounded-tl-3xl rounded-br-3xl bg-slate-400"
-              src={principal}
-              alt="no image"
-            />
-          </TEAnimation>
+        <div className="sm:ml-[-1.5rem] w-[30%] pt-[3.3rem] pl-[0rem]">
+          <img
+            className="sm:h-[15rem] sm:w-[20rem] h-[15rem] w-[15rem] flex-1 rounded-tl-3xl rounded-br-3xl bg-slate-400"
+            src={principal}
+            alt="no image"
+          />
         </div>
 
-        <div className="w-[70%] flex flex-col  pl-[0rem] pt-[3rem]">
+        <div className="sm:ml-8 w-[70%] flex flex-col  pl-[0rem] pt-[3rem]">
           <div className=" text-[#f98d2f] text-[1.5rem] font-bold ">
             Principal Message
           </div>
           <p className=" font-bold text-[2rem] pt-1">Mr.V.Govindarajalu</p>
           <div>
-            <p className="text-[1rem] text-[gray]">
+            <p className="sm:w--[10rem] text-[1rem] text-[gray]">
               Knowledge is one’s guide throughout his lifetime. It
               differentiates between good and bad, understand discipline and are
               common same. Teaching is the best profession in the world. It does
@@ -37,18 +35,17 @@ const PrincipalMsg = () => {
           </div>
         </div>
       </div>
-      <div className="w-[100%] flex flex-row items-center justify-between px-12 gap-4 pt-4">
-        {/* <div className="w-[25%]">
-          <PiStudentDuotone className="h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
+      <div className="sm:w-[50rem] sm:flex flex-col items-center  w-[100%] flex justify-between px-12 gap-4 pt-4">
+        <div className="sm:flex sm:flex-col sm:items-center  sm:justify-center  w-[100%]">
+          <PiStudentDuotone className="sm: h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
           <br />
-          <p className="text-[gray]">
+          <p className="sm:flex sm:flex-col sm:items-center  sm:justify-center text-[gray]">
             Suguna Polytechnic College ensures that the students prove
             themselves as good human beings and worthy citizens of our country
             apart from well qualified engineers.
           </p>
-        </div> */}
-
-        <div className="w-[25%]">
+        </div>
+        <div className="sm:flex sm:flex-col sm:items-center  sm:justify-center w-[100%]">
           <PiStudentDuotone className="h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
           <br />
           <p className="text-[gray]">
@@ -57,16 +54,7 @@ const PrincipalMsg = () => {
             apart from well qualified engineers.
           </p>
         </div>
-        <div className="w-[25%]">
-          <PiStudentDuotone className="h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
-          <br />
-          <p className="text-[gray]">
-            Suguna Polytechnic College ensures that the students prove
-            themselves as good human beings and worthy citizens of our country
-            apart from well qualified engineers.
-          </p>
-        </div>
-        <div className="w-[25%]">
+        <div className="sm:flex sm:flex-col sm:items-center sm:justify-center w-[100%]">
           <LuMedal className="h-[5rem] w-[5rem] text-[white] p-3 bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl" />
           <br />
           <p className="text-[gray]">

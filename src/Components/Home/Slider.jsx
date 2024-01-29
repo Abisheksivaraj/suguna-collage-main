@@ -21,11 +21,11 @@ const Slider = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
       slidesToSlide: 2, // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 640, min: 0 },
       items: 1,
       slidesToSlide: 1, // optional, default to 1.
     },
@@ -43,39 +43,39 @@ const Slider = () => {
         autoPlay={true}
       >
         <div className="relative">
-          <img src={img2} alt="" className="w-screen h-[600px]" />
+          <img src={img2} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img1} alt="" className="w-screen h-[600px]" />
+          <img src={img1} alt="" className=" sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img3} alt="" className="w-screen h-[600px]" />
+          <img src={img3} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative">
-          <img src={img4} alt="" className="w-screen h-[600px]" />
+          <img src={img4} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img5} alt="" className="w-screen h-[600px]" />
+          <img src={img5} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img6} alt="" className="w-screen h-[600px]" />
+          <img src={img6} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative">
-          <img src={img7} alt="" className="w-screen h-[600px]" />
+          <img src={img7} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img8} alt="" className="w-screen h-[600px]" />
+          <img src={img8} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
 
         <div className="relative ">
-          <img src={img9} alt="" className="w-screen h-[600px]" />
+          <img src={img9} alt="" className="sm:h-[300px] w-screen h-[600px]" />
         </div>
       </Carousel>
     </div>

@@ -3,16 +3,16 @@ import vision from "../../assets/vision.jpg"
 
 const VisionMission = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="sm:flex sm:flex-col sm:items-center">
       <div>
         <img
           src={vision}
-          className="h-[25rem] w-[50rem] ml-10 mt-[10rem] opacity-75 relative"
+          className="sm:h-[25rem] sm:w-[37rem]  sm:mt-[10rem] sm:opacity-75 sm:relative"
           alt=""
         />
         <div>
           <div className="border-l-2"></div>
-          <p className="h-[9rem] p-3 w-[18rem] bg-white absolute top-[106rem] left-[13rem] rounded-tl-3xl rounded-br-3xl opacity-85 font-semibold text-[gray]">
+          <p className="sm:h-[9rem] sm:p-3 sm:w-[18rem] sm: bg-white sm:absolute sm:top-[117rem] sm:left-[20rem] sm:rounded-tl-3xl sm:rounded-br-3xl sm:opacity-85 sm:font-semibold sm:text-[gray]">
             “Education is the most powerful weapon which you can use to change
             the world”
             <br />
@@ -21,10 +21,10 @@ const VisionMission = () => {
         </div>
       </div>
 
-      <div className="flex flex-col w-full ml-[8rem] mt-[8rem]">
-        <div>
+      <div className="sm:flex sm:flex-col sm:w-full  sm:mt-[3rem]">
+        <div className="sm:flex sm:flex-col sm:items-center sm:justify-center w-[100%]">
           <p className="text-[#f98d2f] text-[1.5rem] font-bold">Our Vision</p>
-          <p className="w-[40rem] text-[gray]">
+          <p className=" w-[35rem] text-[gray]">
             In Suguna Polytechnic College we impart futuristic technical
             education and inculcate high moral standards and discipline through
             our dedicated faculty, thus develop technologically superior and
@@ -33,9 +33,9 @@ const VisionMission = () => {
           </p>
         </div>
         <br />
-        <div>
+        <div className="sm:flex sm:flex-col sm:items-center sm:justify-center w-[100%]">
           <p className="text-[#f98d2f] text-[1.5rem] font-bold"> Our Mission</p>
-          <p className="w-[40rem] text-[gray]">
+          <p className="w-[35rem] text-[gray]">
             Our Mission is to educate and impart technical knowledge to students
             from all sections of society, with special focus on those from rural
             areas, so that they become enlightened individuals, thereby

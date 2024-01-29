@@ -5,13 +5,16 @@ import logo from "../../assets/CollageLogo.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="h-[9rem] w-[100vw] bg-[#fff]">
-        <div className="flex items-center justify-between mx-10">
-          <div className="w-[20rem] flex items-center justify-start">
-            <img src={logo} alt="" className="h-[5.5rem] mt-5" />
+      <div className=" h-[9rem] w-[100vw] bg-[#fff]">
+        <div
+          className=" sm:mx-0 sm:w-[100%] sm:px-4  flex items-center justify-between mx-10"
+          id="clg-name"
+        >
+          <div className="w-[25rem] flex items-center justify-start">
+            <img src={logo} alt="" className=" sm:h-[3rem] h-[5.5rem] mt-5" />
             <div className="text-[1.25rem] font-bold text-[#f98d2f] uppercase flex flex-col justify-center mt-4">
-              <p className="text-[1.5rem]">Suguna</p>
-              <p className="text-[1.15rem] text-[#83acb0] font-bold uppercase">
+              <p className=" sm:text-[10px]  text-[1.5rem]">Suguna</p>
+              <p className=" sm:text-[10px]  text-[1.15rem] text-[#83acb0] font-bold uppercase">
                 Polytechnic College
               </p>
             </div>
@@ -19,7 +22,7 @@ const Navbar = () => {
 
           <div>
             <a
-              className="p-4 px-9 rounded-tl-3xl rounded-br-3xl text-[white] bg-[#f98d2f] hover:bg-[#83acb0] font-semibold"
+              className="sm:text-[10px] py-4 px-9 rounded-tl-3xl rounded-br-3xl text-[white] bg-[#f98d2f] hover:bg-[#83acb0] font-semibold"
               href="https://docs.google.com/forms/d/e/1FAIpQLSeUdQIqy8IW6vnzEX5GrmVE6bzUGXEOD0A5Zd4wOLXCwbV4EA/viewform"
             >
               For Admission
