@@ -2,7 +2,7 @@ import React from "react";
 import principal from "../../assets/Principal.png";
 import { PiStudentDuotone } from "react-icons/pi";
 import { LuMedal } from "react-icons/lu";
-import { TEAnimation } from "tw-elements-react";
+
 const PrincipalMsg = () => {
   return (
     <div className=" w-[100%] flex justify-start items-start flex-wrap overflow-x-hidden">
@@ -36,16 +36,16 @@ const PrincipalMsg = () => {
         </div>
       </div>
       <div className="sm:w-[50rem] sm:flex flex-col items-center  w-[100%] flex justify-between px-12 gap-4 pt-4">
-        <div className="sm:flex sm:flex-col sm:items-center  sm:justify-center  w-[100%]">
+        <div className="sm:flex sm:flex-col sm:items-start  sm:justify-start  w-[100%]">
           <PiStudentDuotone className="sm: h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
           <br />
-          <p className="sm:flex sm:flex-col sm:items-center  sm:justify-center text-[gray]">
+          <p className="sm:flex sm:flex-col sm:items-start  sm:justify-start text-[gray]">
             Suguna Polytechnic College ensures that the students prove
             themselves as good human beings and worthy citizens of our country
             apart from well qualified engineers.
           </p>
         </div>
-        <div className="sm:flex sm:flex-col sm:items-center  sm:justify-center w-[100%]">
+        <div className="sm:flex sm:flex-col sm:items-start  sm:justify-start w-[100%]">
           <PiStudentDuotone className="h-[5rem] w-[5rem] p-3 text-[white] bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl " />
           <br />
           <p className="text-[gray]">
@@ -54,7 +54,7 @@ const PrincipalMsg = () => {
             apart from well qualified engineers.
           </p>
         </div>
-        <div className="sm:flex sm:flex-col sm:items-center sm:justify-center w-[100%]">
+        <div className="sm:flex sm:flex-col sm:items-start sm:justify-start w-[100%]">
           <LuMedal className="h-[5rem] w-[5rem] text-[white] p-3 bg-[#f98d2f] rounded-br-3xl rounded-tl-3xl" />
           <br />
           <p className="text-[gray]">

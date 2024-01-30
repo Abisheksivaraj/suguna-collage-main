@@ -16,7 +16,7 @@ const Facilities = () => {
         </p>
       </div>
 
-      <div className="flex items-center gap-[3rem] ml-5 mt-10">
+      <div className=" sm:grid sm:grid-rows-3 sm:grid-flow-col w-full justify-around ">
         <div>
           {" "}
           <img
@@ -60,7 +60,9 @@ const Facilities = () => {
             alt=""
             className="h-[10rem] w-[10rem] border-[5px] rounded-full border-[#83acb0] p-1"
           />
-          <p className="text-center font-semibold text-[#f98d2f]">Anti Ragging</p>
+          <p className="text-center font-semibold text-[#f98d2f]">
+            Anti Ragging
+          </p>
         </div>
 
         <div>

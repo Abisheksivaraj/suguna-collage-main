@@ -5,18 +5,17 @@ import {
   FaTwitter,
   FaInstagramSquare,
   FaYoutube,
+  FaLocationDot,
 } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { IoIosArrowForward } from "react-icons/io";
-import { IoCall } from "react-icons/io5";
+import { IoCall, IoIosArrowForward } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 
 const FooterPage = () => {
   return (
     <div className="sm:flex sm:flex-col overflow-x-hidden">
-      <div className="w-full mt-10 bg-black flex flex-col justify-center">
+      <div className="w-full mt-10 bg-black flex flex-col justify-start">
         <div className="">
-          <div className="sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto sm:flex sm:flex-col gap-8 px-5 sm:px-8 pt-5 sm:pt-10 pb-0 items-center justify-center">
+          <div className="sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto sm:flex sm:flex-col gap-8 px-5 sm:px-8 pt-5 sm:pt-10 pb-0 items-center">
             <div className="flex flex-row gap-2 items-center">
               <img
                 className="w-20 h-20 rounded-full"
@@ -65,8 +64,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Awards
+                  <IoIosArrowForward></IoIosArrowForward>Awards
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -74,8 +72,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Facilities
+                  <IoIosArrowForward></IoIosArrowForward>Facilities
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -83,8 +80,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Departments
+                  <IoIosArrowForward></IoIosArrowForward>Departments
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -92,8 +88,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Anti-Ragging Committee
+                  <IoIosArrowForward></IoIosArrowForward>Anti-Ragging Committee
                 </a>
               </li>
             </ul>
@@ -105,8 +100,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Admission
+                  <IoIosArrowForward></IoIosArrowForward>Admission
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -115,8 +109,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Scholarship
+                  <IoIosArrowForward></IoIosArrowForward>Scholarship
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -124,8 +117,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Our Recruiters
+                  <IoIosArrowForward></IoIosArrowForward>Our Recruiters
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -133,8 +125,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Placements
+                  <IoIosArrowForward></IoIosArrowForward>Placements
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -142,8 +133,7 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Photo Gallery
+                  <IoIosArrowForward></IoIosArrowForward>Photo Gallery
                 </a>
               </li>
             </ul>
@@ -158,8 +148,8 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Suguna College of Arts and Science
+                  <IoIosArrowForward></IoIosArrowForward>Suguna College of Arts
+                  and Science
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -167,8 +157,8 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Suguna College of Engineering
+                  <IoIosArrowForward></IoIosArrowForward>Suguna College of
+                  Engineering
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
@@ -184,15 +174,15 @@ const FooterPage = () => {
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
-                  <IoIosArrowForward />
-                  Suguna Innovation Institute
+                  <IoIosArrowForward></IoIosArrowForward>Suguna Innovation
+                  Institute
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="w-full sm:flex sm:flex-col sm:gap-5  sm:justify-evenly items-center pb-8">
-          <div className="flex flex-col items-center gap-2">
+        <div className="w-full sm:flex sm:justify-evenly items-center pb-10">
+          <div className="flex justify-around items-center gap-2">
             <IoCall className="text-[#ff9637] text-3xl"></IoCall>
             <div>
               <span className="text-white text-base sm:text-xl">
@@ -205,7 +195,7 @@ const FooterPage = () => {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex items-center gap-2">
               <MdEmail className="text-[#ff9637] text-3xl "></MdEmail>
               <div>
                 <span className="text-white text-base sm:text-xl">
@@ -215,8 +205,10 @@ const FooterPage = () => {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <div className="flex flex-col items-center">
-              <FaMapMarkerAlt className="text-[#ff9637] text-3xl" />
+            <a href="https://www.google.com/maps/place/Suguna+Polytechnic+College/@11.0509439,77.0322591,15z/data=!4m6!3m5!1s0x3ba857bbffffffff:0xfaed96bd33545bc0!8m2!3d11.0509439!4d77.0322591!16s%2Fg%2F1tl7m4b8?entry=ttu">
+              <FaLocationDot className="text-[#ff9637] text-3xl"></FaLocationDot>
+            </a>
+            <div className="items-center">
               <span className="text-white font-bold text-base sm:text-xl">
                 Kalapatti Main Rd, near Vinayaka Temple, GKD Nagar,
               </span>
