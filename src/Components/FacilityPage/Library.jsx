@@ -46,7 +46,7 @@ const Library = () => {
       </div>
 
       <div>
-        <p className="w-[25rem] p-4  sm:w-[40rem] md:w-[48rem] lg:w-[64rem] lg:text-[1.5rem] xl:w-[80rem] xl:text-[1.8rem] 2xl:w-[95rem] 2xl:text-[2.5rem]">
+        <p className="w-[25rem] p-4  sm:w-[40rem] md:w-[48rem] lg:w-[64rem] lg:text-[1.5rem] xl:w-[80rem] xl:text-[1.3rem] 2xl:w-[95rem] 2xl:text-[2.5rem]">
           &nbsp; &nbsp; &nbsp;The library department of Suguna Polytechnic
           Collage functions from 8.30am am to 4.30pm during all working days.All
           the Staffs and Students can utilize the library resources. They can
@@ -60,7 +60,7 @@ const Library = () => {
       </div>
 
       <div className="p-4">
-        <p className="sm:w-[40rem] md:w-[48rem] lg:w-[64rem] lg:text-[1.5rem] xl:w-[80rem] xl:text-[1.8rem] 2xl:w-[95rem] 2xl:text-[2.5rem]">
+        <p className="sm:w-[40rem] md:w-[48rem] lg:w-[64rem] lg:text-[1.5rem] xl:w-[80rem] xl:text-[1.3rem] 2xl:w-[95rem] 2xl:text-[2.5rem]">
           Our college library has compilation of more than 9270 volumes which
           includes,
         </p>
@@ -68,48 +68,48 @@ const Library = () => {
 
       <div
         className="flex flex-row items-start justify-center text-start  lg:text-[1.5rem]  
-          xl:text-[2rem] 
+          xl:text-[1.3rem] 
           2xl:text-[2.5rem] "
       >
         <ul className="">
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Reference Books
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Text books
           </li>
           <li className="flex justify-center items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Magazines and Journals
           </li>
           <li className="flex justify-center items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Magazines and Journals
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Study Materials
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Lab Manuals
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Back up Volumes
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             CD’S
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             Question Banks
           </li>
           <li className="flex justify-start items-center gap-2">
-            <GiBookCover />
+            <GiBookCover className="w-6 h-6" />
             News Paper
           </li>
         </ul>
@@ -118,7 +118,7 @@ const Library = () => {
       <div>
         <p
           className="p-4  lg:text-[1.5rem]  
-          xl:text-[2rem] 
+          xl:text-[1.3rem] 
           2xl:text-[2.5rem] "
         >
           All the books are classified and arranged as per the DDC (Dewey
@@ -131,14 +131,14 @@ const Library = () => {
           className=" p-4 text-[1rem] sm:text-[1.5rem]
           md:text-[1.7rem]  
           lg:text-[2rem]  
-          xl:text-[2.5rem] 
+          xl:text-[2rem] 
           2xl:text-[3rem] text-[#ff9637] font-bold"
         >
           Library Working Hours
         </p>
       </div>
 
-      <div className="flex p-4 items-center gap-8 absolute top-[73rem] sm:top-[88rem]  md:top-[92rem]  lg:top-[116rem] lg:text-[1.5rem] xl:top-[142rem] xl:text-[2rem]  2xl:top-[168rem] 2xl:text-[2.5rem]">
+      <div className="flex p-4 items-center gap-8 absolute top-[73rem] sm:top-[88rem]  md:top-[92rem]  lg:top-[116rem] lg:text-[1.5rem] xl:top-[120rem] xl:text-[1.3rem]  2xl:top-[168rem] 2xl:text-[2.5rem]">
         <div>
           <p className="font-bold">Duration</p>
           <span>Monday to Saurday</span>
@@ -153,11 +153,11 @@ const Library = () => {
         <p
           className="p-4 text-[1rem] absolute
           top-[78rem] text-[#ff9637] font-bold
-          sm:text-[1.5rem]
-          md:text-[1.7rem]  
-          lg:text-[2rem]  
-          xl:text-[2.5rem] 
-          2xl:text-[3rem] "
+            sm:text-[1.5rem]  sm:top-[93rem]
+          md:text-[1.7rem] md:top-[97rem]  
+          lg:text-[2rem]  lg:top-[122rem] 
+          xl:text-[2rem]  xl:top-[127rem]
+          2xl:text-[3rem]  2xl:top-[178rem]"
         >
           Library General Rules and Regulations
         </p>
@@ -165,29 +165,58 @@ const Library = () => {
 
       <div
         className=" absolute
-          top-[81rem] p-4 "
+          top-[81rem] p-4  
+          sm:text-[1rem]  sm:top-[96rem]
+          md:text-[1.1rem] md:top-[100rem]  
+          lg:text-[1.5rem]  lg:top-[126rem] 
+          xl:text-[1.5rem]  xl:top-[130rem]
+          2xl:text-[2.5rem]  2xl:top-[183rem]"
       >
         <ul className="flex flex-col items-start justify-start gap-5">
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-center gap-2">
+            <FcRules className="flex-shrink-0 w-[1rem] h-[1rem]" />
+            <span>The library will function from 8.30am – 4.30pm</span>
           </li>
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-center gap-2">
+            <FcRules className="flex-shrink-0 w-[1rem] h-[1rem]" />
+            <span>
+              Use of Mobile phones is not permitted inside the Library premises.
+            </span>
           </li>
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-center gap-2">
+            <FcRules className="flex-shrink-0 w-[1rem] h-[1rem] flex-grow" />
+            <span>
+              Users are not allowed to carry eatables/drinks inside the Library
+              premises.
+            </span>
           </li>
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-center gap-2">
+            <FcRules className="flex-shrink-0 w-[1rem] h-[1rem]" />
+            <span>
+              Readers should observe strict silence inside the Library.
+            </span>
           </li>
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-center gap-2">
+            <FcRules className="flex-shrink-0 w-[1rem] h-[1rem]" />
+            <span>
+              {" "}
+              Library books are not allowed to taken outside without proper
+              entry and reservation
+            </span>
           </li>
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-center gap-2">
+            <FcRules className="flex-shrink-0 w-[1rem] h-[1rem] " />
+            <span>
+              The library will be closed on all sundays and other government
+              holidays.
+            </span>
           </li>
-          <li>
-            <FcRules />
+          <li className="flex justify-start items-start gap-2">
+            <FcRules className="w-[1rem] h-[1rem] flex-shrink-0 mt-2" />
+            <span>
+              No dues should be obtained from the library at the end of every
+              academic Semester to ensure that books are returned properly
+            </span>
           </li>
         </ul>
       </div>
