@@ -4,7 +4,7 @@ import lab from "../../assets/Mechanical/lab.jpg";
 
 const Mechanical = () => {
   return (
-    <div>
+    <div className="p-4">
       <div className="flex flex-col items-center justify-center">
         <img src={mechpage} alt="" className="w-full h-[15rem] p-4" />
         <span className="text-[1rem] p-4 font-extrabold text-[orange]">
@@ -54,23 +54,31 @@ const Mechanical = () => {
             Lab Facilities
           </h1>
         </div>
-        <ul className="">
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-          <li>Stregth of Material Lab</li>
-        </ul>
+        <div>
+          <ul className="">
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+            <li>Stregth of Material Lab</li>
+          </ul>
+        </div>
       </div>
 
-      <div>
-        <div>
-          
+      <div className="absolute top-[90rem]">
+        <div className="grid grid-cols-3 grid-rows-5 gap-4">
+          <div className="col-start-2">2</div>
+          <div className="row-start-2">3</div>
+          <div className="row-start-2">4</div>
+          <div className="row-start-2">5</div>
+          <div className="row-start-3">6</div>
+          <div>7</div>
+          <div className="row-start-3">8</div>
         </div>
       </div>
     </div>

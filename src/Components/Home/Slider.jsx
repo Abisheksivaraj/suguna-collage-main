@@ -1,7 +1,14 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
-
+import img2 from "../../assets/carousal-images/2.jpg";
+import img1 from "../../assets/carousal-images/1.jpg";
+import img3 from "../../assets/carousal-images/3.jpg";
+import img4 from "../../assets/carousal-images/4.jpg";
+import img5 from "../../assets/carousal-images/5.jpg";
+import img6 from "../../assets/carousal-images/6.jpg";
+import img7 from "../../assets/carousal-images/7.jpg";
+import img8 from "../../assets/carousal-images/8.jpg";
+import img9 from "../../assets/carousal-images/9.jpg";
 
 const Slider = () => {
   const responsive = {
