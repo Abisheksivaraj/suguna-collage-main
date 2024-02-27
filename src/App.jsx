@@ -9,14 +9,15 @@ import TransportPage from "./Components/FacilityPage/TransportPage";
 import Computer from "./Components/Departments/Computer";
 import Automobile from "./Components/Departments/Automobile";
 import ECE from "./Components/Departments/ECE";
-import EEE from "./Components/Departments/EEE"
+import EEE from "./Components/Departments/EEE";
 
 function App() {
   return (
-    // <Homepage/>
-    // <Mechanical />
+    // <Homepage />
+    <Mechanical />
     // <Library />
-    <EEE />
+    // <EEE />
+    // <ECE/>
   );
 }
 
